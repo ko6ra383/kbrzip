@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows7.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="image\arrow.png" />
+    <None Remove="image\back2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HuffLib\HuffLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\arrow.png" />
+    <Resource Include="image\back2.jpg" />
+  </ItemGroup>
+
+</Project>
