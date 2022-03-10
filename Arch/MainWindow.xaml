@@ -13,7 +13,7 @@
         <Label Content="kobra.zip" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="106" Height="40" FontSize="23"/>
         <Button Name="SwitchButton" Content="Архивация" HorizontalAlignment="Center" Margin="0,112,0,0" VerticalAlignment="Top" Height="42" Width="140" Click="Switch" FontSize="20"/>
         <Label Name="Source" Content="Исходный файл" FontSize="18" HorizontalAlignment="Left" Margin="132,0,0,0" VerticalAlignment="Center" Width="146"/>
-        <Label Name="Res" Content="Результат" FontSize="18" HorizontalAlignment="Left" Margin="548,0,0,0" VerticalAlignment="Center" Width="99" RenderTransformOrigin="-0.036,0.61"/>
+        <Label Name="Res" Content="Результат" FontSize="18" HorizontalAlignment="Left" Margin="548,0,0,0" VerticalAlignment="Center" Width="100" RenderTransformOrigin="-0.036,0.61"/>
         <Button Name="SourceButton" Content="Выберите файл" HorizontalAlignment="Left" Margin="132,252,0,0" VerticalAlignment="Top" Height="42" Width="140" Click="SelectSourcePath" FontSize="15"/>
         <Button Name="ResButton" Content="Выберите каталог" HorizontalAlignment="Left" Margin="528,252,0,0" VerticalAlignment="Top" Height="42" Width="140" Click="SelectResPath" FontSize="15"/>
         <Button Name="CommitButton" Content="Выполнить" HorizontalAlignment="Center" Margin="0,346,0,0" VerticalAlignment="Top" Height="42" Width="140" Click="Commit"  FontSize="15"/>
